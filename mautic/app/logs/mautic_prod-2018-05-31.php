@@ -1,0 +1,3 @@
+[2018-05-31 07:07:04] mautic.ERROR: PHP Error: Call to undefined function Debril\RssAtomBundle\Driver\curl_init() - in file /var/www/dmitrykotov.com/public_html/mautic/vendor/debril/rss-atom-bundle/Debril/RssAtomBundle/Driver/HttpCurlDriver.php - at line 54 [] []
+[2018-05-31 07:07:04] mautic.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Error: Call to undefined function Debril\RssAtomBundle\Driver\curl_init() - in file /var/www/dmitrykotov.com/public_html/mautic/vendor/debril/rss-atom-bundle/Debril/RssAtomBundle/Driver/HttpCurlDriver.php - at line 54 [] []
+[2018-05-31 20:43:29] mautic.WARNING: IP LOOKUP: The file "/var/www/dmitrykotov.com/public_html/mautic/app/cache/prod/../ip_data/GeoLite2-City.mmdb" does not exist or is not readable. [] []

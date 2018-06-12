@@ -1,0 +1,743 @@
+	<!doctype html>
+	<html>
+	  <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>My First Email</title>
+	    <style media="all" type="text/css">
+	      @media screen {
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 400;
+	    src: local("Fira Sans Regular"), local("FiraSans-Regular"), url(https://fonts.gstatic.com/s/firasans/v8/MIPWVWI_mY_QERxcMVPEwIX0hVgzZQUfRDuZrPvH3D8.woff2) format("woff2");
+	    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 400;
+	    src: local("Fira Sans Regular"), local("FiraSans-Regular"), url(https://fonts.gstatic.com/s/firasans/v8/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format("woff2");
+	    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 500;
+	    src: local("Fira Sans Medium"), local("FiraSans-Medium"), url(https://fonts.gstatic.com/s/firasans/v8/zM2u8V3CuPVwAAXFQcDi4IjoYw3YTyktCCer_ilOlhE.woff2) format("woff2");
+	    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 500;
+	    src: local("Fira Sans Medium"), local("FiraSans-Medium"), url(https://fonts.gstatic.com/s/firasans/v8/zM2u8V3CuPVwAAXFQcDi4Bampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
+	    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 700;
+	    src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(https://fonts.gstatic.com/s/firasans/v8/DugPdSljmOTocZOR2CItOojoYw3YTyktCCer_ilOlhE.woff2) format("woff2");
+	    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 700;
+	    src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(https://fonts.gstatic.com/s/firasans/v8/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
+	    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 800;
+	    src: local("Fira Sans ExtraBold"), local("FiraSans-ExtraBold"), url(https://fonts.gstatic.com/s/firasans/v8/htOw9f-chtELyJuFCkCrFojoYw3YTyktCCer_ilOlhE.woff2) format("woff2");
+	    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	    font-family: 'Fira Sans';
+	    font-style: normal;
+	    font-weight: 800;
+	    src: local("Fira Sans ExtraBold"), local("FiraSans-ExtraBold"), url(https://fonts.gstatic.com/s/firasans/v8/htOw9f-chtELyJuFCkCrFhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
+	    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	}
+	}
+	      @media (max-width: 620px) {
+	table[class=body] .content {
+	    padding: 0 10px !important;
+	}
+	table[class=body] .container {
+	    padding: 0 !important;
+	    width: 100% !important;
+	}
+	table[class=body] [class*=col_w_] {
+	    padding-left: 0 !important;
+	    padding-right: 0 !important;
+	}
+	table[class=body] .col_w_50,
+	table[class=body] .col_w_33,
+	table[class=body] .col_w_25 {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .menu_style_1 .menu__inner {
+	    padding-right: 30px !important;
+	    padding-left: 30px !important;
+	}
+	table[class=body] .header-block_style_1 .header-block__inner {
+	    padding-right: 30px !important;
+	    padding-left: 30px !important;
+	    padding-bottom: 30px !important;
+	}
+	table[class=body] .header_style_1 .header__menu-item {
+	    padding-left: 11px !important;
+	}
+	table[class=body] .content-block_style_1 .content-block__box {
+	    padding: 35px 30px !important;
+	}
+	table[class=body] .heading_style_1 .heading__holder,
+	table[class=body] .heading_style_1 .heading__title,
+	table[class=body] .heading_style_1 .heading__action,
+	table[class=body] .heading_style_1 .heading__description {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .heading_style_1 .heading__holder {
+	    height: 0 !important;
+	    line-height: 0 !important;
+	    font-size: 0 !important;
+	}
+	table[class=body] .heading_style_1 .heading__action {
+	    padding-top: 15px !important;
+	}
+	table[class=body] .heading_style_1 .btn {
+	    display: block !important;
+	    text-align: center !important;
+	}
+	table[class=body] .heading_style_1 .btn > tbody,
+	table[class=body] .heading_style_1 .btn > tbody > tr {
+	    display: block !important;
+	}
+	table[class=body] .heading_style_1 .btn > tbody > tr > td {
+	    display: inline-block !important;
+	}
+	table[class=body] .cta-block_style_2 .cta-block__box {
+	    padding: 35px 30px !important;
+	}
+	table[class=body] .cta-actions_responsive .cta-actions__action {
+	    display: block !important;
+	    padding-right: 0 !important;
+	    padding-left: 0 !important;
+	}
+	table[class=body] .footer_style_4 .footer__inner {
+	    padding-right: 30px !important;
+	    padding-left: 30px !important;
+	}
+	table[class=body] .socials_style_1.socials_footer-4 .socials__item {
+	    padding-right: 11px !important;
+	}
+	table[class=body] .socials_style_1.socials_footer-4 .socials__item_last {
+	    padding-right: 0 !important;
+	}
+	table[class=body] .col_socials {
+	    text-align: left !important;
+	}
+	table[class=body] .text-block.text-block_footer-4 .text-block__text br {
+	    display: none;
+	}
+	}
+
+	      @media (max-width: 525px) {
+	.spacing_h_80 td {
+	    height: 40px !important;
+	    line-height: 40px !important;
+	    font-size: 40px !important;
+	}
+	table[class=body] .menu_style_1 .menu__inner {
+	    padding: 25px 20px !important;
+	}
+	table[class=body] .menu_style_1 .menu__logo,
+	table[class=body] .menu_style_1 .menu__socials,
+	table[class=body] .menu_style_1 .menu__holder {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .menu_style_1 .menu__socials {
+	    padding-top: 0 !important;
+	}
+	table[class=body] .menu_style_1 .menu__logo {
+	    padding: 20px 0 0 !important;
+	}
+	table[class=body] .menu_style_1 .menu__holder {
+	    height: 0 !important;
+	    line-height: 0 !important;
+	    font-size: 0 !important;
+	}
+	table[class=body] .logo_menu-1 {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .logo_menu-1 tbody,
+	table[class=body] .logo_menu-1 tr,
+	table[class=body] .logo_menu-1 .logo__inner {
+	    display: block !important;
+	}
+	table[class=body] .logo_menu-1 .logo__img {
+	    Margin: 0 auto !important;
+	}
+	table[class=body] .socials_style_1.socials_menu-1 {
+	    display: block !important;
+	    width: 100% !important;
+	    text-align: center !important;
+	    font-size: 0 !important;
+	}
+	table[class=body] .socials_style_1.socials_menu-1 tbody,
+	table[class=body] .socials_style_1.socials_menu-1 tr {
+	    display: block !important;
+	}
+	table[class=body] .socials_style_1.socials_menu-1 .socials__item {
+	    display: inline-block !important;
+	    vertical-align: top !important;
+	}
+	table[class=body] .header-block_style_1 .header-block__inner {
+	    padding-top: 25px !important;
+	    padding-right: 20px !important;
+	    padding-left: 20px !important;
+	    padding-bottom: 25px !important;
+	}
+	table[class=body] .header-block_style_1 .header-block__date,
+	table[class=body] .header-block_style_1 .header-block__title {
+	    display: block !important;
+	    text-align: center !important;
+	}
+	table[class=body] .header-block_style_1 .header-block__title {
+	    font-size: 24px !important;
+	    line-height: 1.42 !important;
+	}
+	table[class=body] .header_style_1 .header__logo,
+	table[class=body] .header_style_1 .header__nav,
+	table[class=body] .header_style_1 .header__menu {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .header_style_1 .header__logo-img {
+	    Margin: 0 auto !important;
+	}
+	table[class=body] .header_style_1 .header__nav {
+	    padding-top: 20px !important;
+	}
+	table[class=body] .header_style_1 .header__menu {
+	    text-align: center !important;
+	}
+	table[class=body] .header_style_1 .header__menu tbody,
+	table[class=body] .header_style_1 .header__menu tr {
+	    display: block !important;
+	}
+	table[class=body] .header_style_1 .header__menu-item {
+	    padding-bottom: 5px !important;
+	    display: inline-block !important;
+	}
+	table[class=body] .header_style_1 .header__menu-item_last {
+	    padding-left: 0 !important;
+	}
+	table[class=body] .spacing_header-1 td {
+	    height: 138px !important;
+	    line-height: 138px !important;
+	    font-size: 138px !important;
+	}
+	table[class=body] .content-block_style_1 .content-block__box {
+	    padding: 25px 20px !important;
+	}
+	table[class=body] .heading__description br {
+	    display: none !important;
+	}
+	table[class=body] .heading_style_2 .heading__title,
+	table[class=body] .heading_style_2 .heading__action,
+	table[class=body] .heading_style_2 .heading__description {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	table[class=body] .heading_style_2 .heading__title,
+	table[class=body] .heading_style_2 .heading__description {
+	    text-align: center !important;
+	}
+	table[class=body] .heading_style_2 .heading__action {
+	    padding-top: 15px !important;
+	}
+	table[class=body] .heading_style_2 .btn {
+	    display: block !important;
+	    text-align: center !important;
+	}
+	table[class=body] .heading_style_2 .btn > tbody,
+	table[class=body] .heading_style_2 .btn > tbody > tr {
+	    display: block !important;
+	}
+	table[class=body] .heading_style_2 .btn > tbody > tr > td {
+	    display: inline-block !important;
+	}
+	table[class=body] .cta-block_style_2 .cta-block__box {
+	    padding: 25px 20px !important;
+	}
+	table[class=body] .cta_style_1 .cta__title {
+	    font-size: 24px !important;
+	    line-height: 1.42 !important;
+	}
+	table[class=body] .cta_style_1 .cta__title br,
+	table[class=body] .cta_style_1 .cta__text br {
+	    display: none !important;
+	}
+	table[class=body] .footer_style_4 .footer__inner {
+	    padding: 25px 20px !important;
+	}
+	}
+
+	    </style>
+	  </head>
+	  <body style="font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 16px; width: 100% !important; Margin: 0; padding: 0; line-height: 1.5; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f4f4f4;">
+	  <table class="body" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f4f4f4;" width="100%" bgcolor="#f4f4f4">
+	    <tr>
+	      <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">&nbsp;</td>
+	      <td class="container" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0 10px; display: block; max-width: 620px; width: 620px; Margin: 0 auto !important;" width="620" valign="top">
+	        <div class="content" style="box-sizing: border-box; display: block; max-width: 620px; Margin: 0 auto;">
+	          <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
+	          <table class="spacing spacing_h_20" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	            <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 20px; font-size: 20px; line-height: 20px;" valign="top">&nbsp;</td>
+	              </tr>
+	            </tbody>
+	          </table>
+
+	<!-- START BLOCK: Menu 1 -->
+	<table class="menu menu_rounded menu_style_1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	  <tbody>
+	  <tr>
+	    <td class="menu__inner" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 40px 40px 36px; border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); background-color: #1B1B1B;" valign="top" bgcolor="#1B1B1B">
+	      <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	        <tbody>
+	        <tr>
+	          <td class="menu__socials" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; width: 185px; padding-top: 3px;" width="185" valign="top">
+	            <table class="socials socials_style_1 socials_light socials_menu-1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	              <tbody>
+	              <tr>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 12px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/cbe0e7f9-a66f-49df-bd19-6f108d21b8e3.png" width="15" alt="Facebook" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 12px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/419bee99-c52c-4d62-b256-2cd4b5722616.png" width="15" alt="Twitter" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 12px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/c8407bf8-9f50-4f94-a486-2d182663f218.png" width="20" alt="G+" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/475132ed-2c85-4960-84f2-beb57ee1d395.png" width="15" alt="Instagram" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	          <td class="menu__logo" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0 10px; width: 150px;" width="150" valign="top">
+	            <table class="logo logo_light logo_menu-1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	              <tr>
+	                <td class="logo__inner" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; text-align: center;" valign="top" align="center">
+	                  <a class="logo__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img src="http://dmitrykotov.com/img/postcards/0de049ac-f553-43d7-872a-6bf70ce6a487.png" class="logo__img" alt="Postcards" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-weight: 700; font-size: 22px; color: #ffffff; width: 130px;" width="130">
+	                  </a>
+	                </td>
+	              </tr>
+	            </table>
+	          </td>
+	          <td class="menu__holder" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; width: 185px;" width="185" valign="top">&nbsp;</td>
+	        </tr>
+	        </tbody>
+	      </table>
+	    </td>
+	  </tr>
+	  </tbody>
+	</table>
+	<!-- END BLOCK: Menu 1 -->
+
+	<table class="spacing spacing_h_8" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%"><tbody><tr><td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 8px; font-size: 8px; line-height: 8px;" valign="top">&nbsp;</td></tr></tbody></table>
+
+	<!-- START BLOCK: Header 1 -->
+	<table class="header-block header-block_rounded header-block_style_1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	  <tbody>
+	  <tr>
+	    <td class="header-block__inner" background="http://dmitrykotov.com/img/postcards/ccf55a27-ecd5-415e-ac9a-4f264450f44d.jpg" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 33px 40px 40px 40px; border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); background: url('http://dmitrykotov.com/img/postcards/ccf55a27-ecd5-415e-ac9a-4f264450f44d.jpg'); background-position: top center; background-color: #000000;" valign="top" bgcolor="#000000">
+	      <!--[if gte mso 9]>
+	      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+	        <v:fill type="tile" src="http://dmitrykotov.com/img/postcards/ccf55a27-ecd5-415e-ac9a-4f264450f44d.jpg" color="#000000" />
+	        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+	      <![endif]-->
+	      <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	        <tbody>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="header header_style_1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td class="header__logo" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-top: 1px;" valign="top">
+	                  <a href="http://example.com" class="header__logo-link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="header__logo-img" src="http://dmitrykotov.com/img/postcards/0de049ac-f553-43d7-872a-6bf70ce6a487.png" alt="Postcards" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; -ms-interpolation-mode: bicubic; height: 22px; line-height: 25px; display: block; width: 130px; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 22px; color: #ffffff;" width="130">
+	                  </a>
+	                </td>
+	                <td class="header__nav" align="right" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	                  <table class="header__menu" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	                    <tbody>
+	                    <tr>
+	                      <td class="header__menu-item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 21px;" valign="top">
+	                        <a href="http://example.com" class="header__menu-link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: #ffffff; text-decoration: none; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500;">World</a>
+	                      </td>
+	                      <td class="header__menu-item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 21px;" valign="top">
+	                        <a href="http://example.com" class="header__menu-link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: #ffffff; text-decoration: none; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500;">Lifestyle</a>
+	                      </td>
+	                      <td class="header__menu-item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 21px;" valign="top">
+	                        <a href="http://example.com" class="header__menu-link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: #ffffff; text-decoration: none; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500;">Travel</a>
+	                      </td>
+	                      <td class="header__menu-item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 21px;" valign="top">
+	                        <a href="http://example.com" class="header__menu-link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: #ffffff; text-decoration: none; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500;">Technology</a>
+	                      </td>
+	                    </tr>
+	                    </tbody>
+	                  </table>
+	                </td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="spacing spacing_header-1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 144px; line-height: 144px; font-size: 144px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td class="header-block__date" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; color: #ffffff;" valign="top">23 November 2017</td>
+	              </tr>
+	              <tr>
+	                <td class="header-block__title" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; padding-top: 13px; color: #ffffff; line-height: 1.27; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; letter-spacing: -.7px;" valign="top">Weekly Digest.</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        </tbody>
+	      </table>
+	      <!--[if gte mso 9]>
+	      </v:textbox>
+	      </v:rect>
+	      <![endif]-->
+	    </td>
+	  </tr>
+	  </tbody>
+	</table>
+	<!-- END BLOCK: Header 1 -->
+
+	<table class="spacing spacing_h_8" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%"><tbody><tr><td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 8px; font-size: 8px; line-height: 8px;" valign="top">&nbsp;</td></tr></tbody></table>
+
+	<!-- START BLOCK: Content 1 -->
+	<table class="content-block content-block_rounded content-block_style_1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	  <tbody>
+	  <tr>
+	    <td class="content-block__box" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); background-color: #ffffff;" valign="top" bgcolor="#ffffff">
+	      <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	        <tbody>
+	        <tr>
+	          <td class="content-block__title" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; text-align: center; color: #151515; font-size: 24px; font-weight: 700; line-height: 1.42; letter-spacing: -.4px; font-family: 'Fira Sans', Helvetica, Arial, sans-serif;" valign="top" align="center">
+	            Last week’s blog posts.
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="spacing spacing_h_5" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 5px; font-size: 5px; line-height: 5px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="posts posts_contet-block-1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr class="posts__row">
+	                <td class="posts__col col_w_50 col_first" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-right: 20px; width: 50%; padding-left: 0; padding-top: 25px;" width="50%" valign="top">
+	                  <table class="post post_style_3 post_light post_content-block-1-1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; text-align: center;" width="100%" align="center">
+	                    <tbody>
+	                    <tr>
+	                      <td class="post__box" background="http://dmitrykotov.com/img/postcards/d8301a88-e70d-42e8-bdc3-301781eab761.jpg" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 25px; vertical-align: middle; background: url('http://dmitrykotov.com/img/postcards/d8301a88-e70d-42e8-bdc3-301781eab761.jpg'); background-position: center; background-size: cover; border-radius: 6px; height: 340px; background-color: #151515;" valign="middle" bgcolor="#151515">
+	                        <!--[if gte mso 9]>
+	                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+	                          <v:fill type="tile" src="http://dmitrykotov.com/img/postcards/d8301a88-e70d-42e8-bdc3-301781eab761.jpg" color="#1B1B1B" />
+	                          <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+	                        <![endif]-->
+	                        <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	                          <tbody>
+	                          <tr>
+	                            <td class="post__date" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; line-height: 1.43; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; color: #40BE65;" valign="top">12 November 2017</td>
+	                          </tr>
+	                          <tr>
+	                            <td class="post__title" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; padding-top: 8px; line-height: 1.42; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -.4px; color: #ffffff;" valign="top">
+	                              <a class="post__title-link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: inherit; text-decoration: none;">Cost Cutting Ideas For Your Wedding</a>
+	                            </td>
+	                          </tr>
+	                          </tbody>
+	                        </table>
+	                        <!--[if gte mso 9]>
+	                        </v:textbox>
+	                        </v:rect>
+	                        <![endif]-->
+	                      </td>
+	                    </tr>
+	                    </tbody>
+	                  </table>
+	                </td>
+	                <td class="posts__col col_w_50 col_last" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 20px; width: 50%; padding-right: 0; padding-top: 25px;" width="50%" valign="top">
+	                  <table class="post post_style_3 post_light post_content-block-1-2" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; text-align: center;" width="100%" align="center">
+	                    <tbody>
+	                    <tr>
+	                      <td class="post__box" background="http://dmitrykotov.com/img/postcards/a1b7ed46-d8bc-4ba1-ac55-c49e8159e79c.jpg" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 25px; vertical-align: middle; background: url('http://dmitrykotov.com/img/postcards/a1b7ed46-d8bc-4ba1-ac55-c49e8159e79c.jpg'); background-position: center; background-size: cover; border-radius: 6px; height: 340px; background-color: #151515;" valign="middle" bgcolor="#151515">
+	                        <!--[if gte mso 9]>
+	                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+	                          <v:fill type="tile" src="http://dmitrykotov.com/img/postcards/a1b7ed46-d8bc-4ba1-ac55-c49e8159e79c.jpg" color="#1B1B1B" />
+	                          <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+	                        <![endif]-->
+	                        <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	                          <tbody>
+	                          <tr>
+	                            <td class="post__date" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; line-height: 1.43; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; color: #40BE65;" valign="top">7 November 2017</td>
+	                          </tr>
+	                          <tr>
+	                            <td class="post__title" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; padding-top: 8px; line-height: 1.42; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -.4px; color: #ffffff;" valign="top">
+	                              <a class="post__title-link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border: 0; outline: 0; color: inherit; text-decoration: none;">The Key To Your Motivation And Success</a>
+	                            </td>
+	                          </tr>
+	                          </tbody>
+	                        </table>
+	                        <!--[if gte mso 9]>
+	                        </v:textbox>
+	                        </v:rect>
+	                        <![endif]-->
+	                      </td>
+	                    </tr>
+	                    </tbody>
+	                  </table>
+	                </td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        </tbody>
+	      </table>
+	    </td>
+	  </tr>
+	  </tbody>
+	</table>
+	<!-- END BLOCK: Content 1 -->
+
+	<table class="spacing spacing_h_8" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%"><tbody><tr><td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 8px; font-size: 8px; line-height: 8px;" valign="top">&nbsp;</td></tr></tbody></table>
+
+	<!-- START BLOCK: Call to action 2 -->
+	<table class="cta-block cta-block_rounded cta-block_style_2" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	  <tbody>
+	  <tr>
+	    <td class="cta-block__box" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); background-color: #ffffff;" valign="top" bgcolor="#ffffff">
+	      <table class="cta cta_style_1 cta_center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; text-align: center;" width="100%" align="center">
+	        <tbody>
+	        <tr>
+	          <td class="cta__title" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; color: #151515; font-size: 36px; font-weight: 900; line-height: 1.28; letter-spacing: -.6px; font-family: 'Fira Sans', Helvetica, Arial, sans-serif;" valign="top">Only till Monday!</td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="spacing spacing_h_10" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 10px; font-size: 10px; line-height: 10px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td class="cta__text cta__text_style_2" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; -ms-text-size-adjust: 100%; padding: 0; vertical-align: top; letter-spacing: -.2px; font-size: 20px; font-weight: 300; line-height: 1.4; color: #1B1B1B; font-family: 'Fira Sans', Helvetica, Arial, sans-serif;" valign="top">
+	            Voucher code:
+	            <span class="text-bold" style="font-weight: bold;">GMRW</span>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="spacing spacing_h_20" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 20px; font-size: 20px; line-height: 20px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td class="cta__action" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="btn btn_primary" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tr>
+	                <td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	                  <table cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	                    <tr>
+	                      <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; background-color: #1695e7; border-radius: 8px; text-align: center;" valign="top" bgcolor="#1695e7" align="center">
+	                        <a href="http://example.com" style="-webkit-text-size-adjust: 100%; box-sizing: border-box; outline: 0; -ms-text-size-adjust: 100%; text-decoration: none; border: solid 1px #1695e7; border-color: #1695e7; display: inline-block; margin: 0; color: #ffffff; border-radius: 8px; background-color: #1695e7; line-height: 1.5; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 500; cursor: pointer; padding: 13px 17px;">
+	                          Sale away
+	                        </a>
+	                      </td>
+	                    </tr>
+	                  </table>
+	                </td>
+	              </tr>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">
+	            <table class="spacing spacing_h_20" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 20px; font-size: 20px; line-height: 20px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td class="cta__text" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 300; line-height: 1.56; color: #9B9B9B;" valign="top">No minimum order value</td>
+	        </tr>
+	        </tbody>
+	      </table>
+	    </td>
+	  </tr>
+	  </tbody>
+	</table>
+	<!-- END BLOCK: Call to action 2 -->
+
+	<table class="spacing spacing_h_8" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%"><tbody><tr><td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 8px; font-size: 8px; line-height: 8px;" valign="top">&nbsp;</td></tr></tbody></table>
+
+	<!-- START BLOCK: Footer 4 -->
+	<table class="footer footer_rounded footer_style_4" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	  <tbody>
+	  <tr>
+	    <td class="footer__inner" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 41px 40px 39px; border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); background-color: #1B1B1B;" valign="top" bgcolor="#1B1B1B">
+	      <table style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	        <tbody>
+	        <tr>
+	          <td class="col_w_50 col_first" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-right: 20px; width: 50%; padding-left: 0;" width="50%" valign="top">
+	            <table class="text-block text-block_style_2 text-block_light text-block_footer-4" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td class="text-block__text" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; font-family: 'Fira Sans', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.43; letter-spacing: -.2px; color: #ffffff;" valign="top">
+	                  King street, 2901 Marmara road,
+	                  <br>Newyork, WA 98122-1090
+	                </td>
+	              </tr>
+	              </tbody>
+	            </table>
+	            <table class="spacing spacing_footer-4_1" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 20px; font-size: 20px; line-height: 20px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	          <td class="col_w_50 col_last col_socials" align="right" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; padding-left: 20px; width: 50%; padding-right: 0;" width="50%" valign="top">
+	            <table class="socials socials_style_1 socials_footer-4" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	              <tbody>
+	              <tr>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 22px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/cbe0e7f9-a66f-49df-bd19-6f108d21b8e3.png" width="15" alt="Facebook" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 22px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/419bee99-c52c-4d62-b256-2cd4b5722616.png" width="15" alt="Twitter" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 22px;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/c8407bf8-9f50-4f94-a486-2d182663f218.png" width="20" alt="G+" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	                <td class="socials__item socials__item_last" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: middle; font-size: 0; line-height: 0; padding-right: 0;" valign="middle">
+	                  <a class="socials__link" href="http://example.com" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	                    <img class="socials__icon" src="http://dmitrykotov.com/img/postcards/475132ed-2c85-4960-84f2-beb57ee1d395.png" width="15" alt="Instagram" style="outline: none; max-width: 100%; border: 0; Margin: 0; text-decoration: none; line-height: 100%; height: auto; -ms-interpolation-mode: bicubic; display: block; font-size: 14px; font-weight: 700; color: #ffffff;">
+	                  </a>
+	                </td>
+	              </tr>
+	              </tbody>
+	            </table>
+	            <table class="spacing spacing_footer-4_2" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	              <tr>
+	                <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 30px; font-size: 30px; line-height: 30px;" valign="top">&nbsp;</td>
+	              </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	        </tbody>
+	      </table>
+	      <table class="footer-menu footer-menu_style_1 footer-menu_footer-4" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+	        <tbody>
+	        <tr>
+	          <td class="footer-menu__item" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; font-size: 14px; line-height: 1.43; padding-right: 16px;" valign="top">
+	            <a href="http://example.com" class="menu__link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">Manage Preferences</a>
+	          </td>
+	          <td class="footer-menu__item footer-menu__item_last" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top; font-size: 14px; line-height: 1.43;" valign="top">
+	            <a href="http://example.com" class="menu__link" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; color: #1595E7; text-decoration: none; border: 0; outline: 0;">
+	              
+	            </a>
+	            <unsubscribe>Unsubscribe</unsubscribe>
+	          </td>
+	        </tr>
+	        </tbody>
+	      </table>
+	    </td>
+	  </tr>
+	  </tbody>
+	</table>
+	<!-- END BLOCK: Footer 4 -->
+
+	            <table class="spacing spacing_h_20" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+	              <tbody>
+	                <tr>
+	                  <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; vertical-align: top; padding: 0; height: 20px; font-size: 20px; line-height: 20px;" valign="top">&nbsp;</td>
+	                </tr>
+	              </tbody>
+	            </table>
+	          </div>
+	        </td>
+	        <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; box-sizing: border-box; padding: 0; vertical-align: top;" valign="top">&nbsp;</td>
+	      </tr>
+	    </table>
+	  </body>
+	</html>

@@ -1,0 +1,12 @@
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^about$ about.php [NC]
+RewriteRule ^photo$ project.php?id=15
+RewriteRule ^aqua$ project.php?id=12
+RewriteRule ^registration$ registration.php [NC]
+RewriteRule ^realfie$ project.php?id=11 [NC]
+RewriteRule ^freelance$ add_port.php [NC]
+RewriteRule ^new$ new_project.php [NC]
+RewriteRule ^shapr$ index.php?utm_source=shapr
+RewriteRule ^portfolio$ index.php?utm_source=shapr
+RewriteRule ^showcase$ index.php?utm_source=prospecting

@@ -1,0 +1,21 @@
+Version: 0.01
+
+Configuration
+Date start: 2016-12-01
+Date end: 2017-03-31
+Country: USA
+State: TX
+City: Austin
+
+Google found: 100
+Good results: 70
+Bad results: 30
+
+Personalized: 21
+VPS: 49
+
+Link to Personalized: http://..
+Link to VPS: http://..
+
+Report sent
+2016-12-20 09:06:37.763789

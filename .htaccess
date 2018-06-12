@@ -1,0 +1,18 @@
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^about$ about.php [NC]
+RewriteRule ^photo$ project.php?id=15
+RewriteRule ^aqua$ project.php?id=12
+RewriteRule ^registration$ registration.php [NC]
+RewriteRule ^realfie$ project.php?id=11 [NC]
+RewriteRule ^freelance$ add_port.php [NC]
+RewriteRule ^new$ new_project.php [NC]
+RewriteRule ^shapr$ index.php?utm_source=shapr
+RewriteRule ^portfolio$ index.php?utm_source=shapr
+RewriteRule ^showcase$ index.php?utm_source=prospecting
+RewriteRule ^work$ http://dmitrykotov.com/index.php?utm_source=email&utm_medium=email_first_link&utm_campaign=first_prosp_1.0
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_flag  log_errors on
